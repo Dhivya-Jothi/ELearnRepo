@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="ELearningPortal.HomePage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>DJ E-Learning Portal</title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<style>
+		.Form {
+			
+			color: yellow;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			width: 100%;
+		}
+
+		.image {
+			background-image: url("Elearn.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body class="image">
+	<form id="form1" class="Form" runat="server">
+		<div>
+
+			<div class="Form" id="title">
+				DJ E-Learning Portal
+                <span style="margin-left: 760px">
+					<asp:Button ID="home" runat="server" Text="Home" OnClick="Home_Click" BackColor="#8ABAD3FF" BorderWidth="0" />
+					&nbsp;
+                    <asp:Button ID="login" runat="server" Text="Login" OnClick="Login_Click" BackColor="#8ABAD3FF" BorderWidth="0" />
+					&nbsp;
+                    <asp:Button ID="register" runat="server" Text="SignUp" OnClick="SignUp_Click" BackColor="#8ABAD3FF" BorderWidth="0" />
+					&nbsp;
+                    
+				</span>
+			</div>
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>
+
