@@ -9,11 +9,10 @@
 	</asp:ContentPlaceHolder>
 	<style>
 		.Form {
-			
 			color: yellow;
 			padding: 14px 20px;
 			margin: 8px 0;
-			border: none;
+			border: none;		
 			width: 100%;
 		}
 
@@ -21,6 +20,9 @@
 			background-image: url("Elearn.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
+		}
+		.row{
+			color:yellow;
 		}
 	</style>
 </head>
@@ -37,7 +39,8 @@
 					&nbsp;
                     <asp:Button ID="register" runat="server" Text="SignUp" OnClick="SignUp_Click" BackColor="#8ABAD3FF" BorderWidth="0" />
 					&nbsp;
-                    
+                    <asp:Button ID="Course" runat="server" Text="Course"  OnClick="Course_Click" BackColor="#8ABAD3FF" BorderWidth="0" />
+					&nbsp;
 				</span>
 			</div>
 			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

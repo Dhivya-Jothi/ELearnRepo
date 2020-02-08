@@ -26,5 +26,9 @@ namespace ELearningPortal
 		{
 			Response.Redirect("SignUpPage.aspx");
 		}
+		protected void Course_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("GridViewELearn.aspx");
+		}
 	}
 }

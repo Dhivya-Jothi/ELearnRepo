@@ -3,14 +3,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	
 	<table>
 		<tr>
-			<td>User Name</td>
+			<td class="row">User Name</td>
 			<td>
 				<asp:TextBox runat="server" ID="txtName" placeholder="Enter the  name" /></td>
 		</tr>
 		<tr>
-			<td>Password</td>
+			<td class="row">Password</td>
 			<td>
 				<asp:TextBox runat="server" type="password" ID="txtPassword" placeholder="Enter the password" /></td>
 		</tr>

@@ -70,9 +70,7 @@
     <Content Include="Global.asax" />
     <Content Include="GridViewELearn.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
-    <Content Include="SignUp.aspx" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -103,13 +101,6 @@
     <Compile Include="HomePage.Master.designer.cs">
       <DependentUpon>HomePage.Master</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="LoginPage.aspx.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,13 +109,6 @@
       <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignUp.aspx.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SignUp.aspx.designer.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SignUpPage.aspx.cs">
       <DependentUpon>SignUpPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,7 +116,6 @@
     <Compile Include="SignUpPage.aspx.designer.cs">
       <DependentUpon>SignUpPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserRespositary.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HomePage.Master" />
